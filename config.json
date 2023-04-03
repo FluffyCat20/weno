@@ -1,0 +1,17 @@
+{
+	"type": "WenoSimpleTransfer",
+	"outfile": "D:/gas_dyn/weno/weno/results/weno_simple_transfer_k=3.dat",
+	"init_type": "jiang_shu_first_test",
+	"boundary_conditions_type": "periodic",
+	"left_bound": -1.0,
+	"right_bound": 1.0,
+	"a": -1.0,
+	"x0": 0.5,
+	"v0": 1.0,
+	"v1": -1.0,
+	"k": 3,
+	"nodes_num": 200,
+	"courant_num": 0.4,
+	"time_order": 1,
+	"t_end": 0.3
+}
